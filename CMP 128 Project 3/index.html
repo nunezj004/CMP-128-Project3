@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+
+
+    <body>
+        <form class = "calc" name = "calculator">
+        
+            <input class = "value" type = "text" name = "textview" readonly = "">
+            <span class = "num plus" onclick = "document.calculator.textview.value +='+'">+</span>
+            <span class = "num min" onclick = "document.calculator.textview.value +='-'">-</span>
+            <span class = "num mult" onclick = "document.calculator.textview.value +='*'">*</span>
+            <span class = "num div" onclick = "document.calculator.textview.value +='/'">/</span>
+            <span class = "num" onclick = "document.calculator.textview.value +='7'">7</span>
+            <span class = "num" onclick = "document.calculator.textview.value +='8'">8</span>
+            <span class = "num" onclick = "document.calculator.textview.value +='9'">9</span>
+            <span class = "num equals" onclick = "document.calculator.textview.value = eval(calculator.textview.value)">=</span>
+            <span class = "num" onclick = "document.calculator.textview.value +='4'">4</span>
+            <span class = "num" onclick = "document.calculator.textview.value +='5'">5</span>
+            <span class = "num" onclick = "document.calculator.textview.value +='6'">6</span>
+            <span class = "num" onclick = "document.calculator.textview.value +='1'">1</span>
+            <span class = "num" onclick = "document.calculator.textview.value +='2'">2</span>
+            <span class = "num" onclick = "document.calculator.textview.value +='3'">3</span>
+            <span class = "num" onclick = "document.calculator.textview.value +='0'">0</span>
+            <span class = "num" onclick = "document.calculator.textview.value +='.'">.</span>
+            <span class = "num clear" onclick = "document.calculator.textview.value =''">C</span>
+            
+        </form>
+
+    </body>
+
+</html>
